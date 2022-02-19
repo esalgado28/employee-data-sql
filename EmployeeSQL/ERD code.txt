@@ -1,0 +1,36 @@
+# Physical ERD
+
+departments
+-
+Dept_no INT PK
+Dept_name VARCHAR(255)
+
+dept_emp
+-
+Emp_no INT FK - employees.Emp_no
+Dept_no INT FK >- departments.Dept_no
+
+dept_manager
+-
+Dept_no INT FK - departments.Dept_no
+Emp_no INT FK - employees.Emp_no
+
+employees
+-
+Emp_no INT PK
+Emp_title_id INT FK >- titles.Title_id
+Birth_date VARCHAR(255)
+First_name VARCHAR(255)
+Last_name VARCHAR(255)
+Sex VARCHAR(255)
+Hire_date VARCHAR(255)
+
+salaries
+-
+Emp_no INT FK - employees.Emp_no
+Salary INT
+
+titles
+-
+Title_id INT PK
+Title VARCHAR(255)
