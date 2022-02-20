@@ -5,18 +5,12 @@ CREATE TABLE departments (
 	dept_name VARCHAR(255)
 );
 
-SELECT * FROM departments
-LIMIT 10
-
 -- Create titles table
 
 CREATE TABLE titles (
 	title_id VARCHAR(255) PRIMARY KEY,
 	title VARCHAR(255)
 );
-
-SELECT * FROM titles
-LIMIT 10
 
 -- Create employee table
 
@@ -31,9 +25,6 @@ CREATE TABLE employees (
 	hire_date VARCHAR(255)
 );
 
-SELECT * FROM employees
-LIMIT 10
-
 -- Create department employees table
 
 CREATE TABLE dept_emp (
@@ -42,9 +33,6 @@ CREATE TABLE dept_emp (
 	dept_no VARCHAR(255), 
 	FOREIGN KEY (dept_no) REFERENCES departments(dept_no)
 );
-
-SELECT * FROM dept_emp
-LIMIT 10
 
 -- Create department manager table
 
@@ -55,9 +43,6 @@ CREATE TABLE dept_manager (
 	FOREIGN KEY (emp_no) REFERENCES employees(emp_no)
 );
 
-SELECT * FROM dept_manager
-LIMIT 10
-
 -- Create salaries table
 
 CREATE TABLE salaries (
@@ -65,6 +50,3 @@ CREATE TABLE salaries (
 	FOREIGN KEY (emp_no) REFERENCES employees(emp_no),
 	salary INTEGER
 );
-
-SELECT * FROM salaries
-LIMIT 10
