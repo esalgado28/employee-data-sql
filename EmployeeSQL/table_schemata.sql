@@ -13,7 +13,6 @@ CREATE TABLE titles (
 );
 
 -- Create employee table
-
 CREATE TABLE employees (
 	emp_no INTEGER PRIMARY KEY,
 	emp_title_id VARCHAR(255),
@@ -21,7 +20,7 @@ CREATE TABLE employees (
 	birth_date VARCHAR(255),
 	first_name VARCHAR(255),
 	last_name VARCHAR(255),
-	sex VARCHAR(255),
+	sex VARCHAR(1),
 	hire_date VARCHAR(255)
 );
 
