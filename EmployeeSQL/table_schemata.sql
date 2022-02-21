@@ -25,7 +25,7 @@ CREATE TABLE employees (
 	hire_date VARCHAR(255)
 );
 
--- Create department employees table
+-- Create department employees junction table
 
 CREATE TABLE dept_emp (
 	emp_no INTEGER, 
@@ -34,7 +34,7 @@ CREATE TABLE dept_emp (
 	FOREIGN KEY (dept_no) REFERENCES departments(dept_no)
 );
 
--- Create department manager table
+-- Create department manager junction table
 
 CREATE TABLE dept_manager (
 	dept_no VARCHAR(255),
