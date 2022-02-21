@@ -17,11 +17,11 @@ CREATE TABLE employees (
 	emp_no INTEGER PRIMARY KEY,
 	emp_title_id VARCHAR(255),
 	FOREIGN KEY (emp_title_id) REFERENCES titles(title_id),
-	birth_date VARCHAR(255),
+	birth_date VARCHAR(10),
 	first_name VARCHAR(255),
 	last_name VARCHAR(255),
 	sex VARCHAR(1),
-	hire_date VARCHAR(255)
+	hire_date VARCHAR(10)
 );
 
 -- Create department employees junction table
