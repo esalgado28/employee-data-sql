@@ -1,6 +1,9 @@
 # sql-challenge
 Eddy's Folder for SQL Homework
 
+![image](https://user-images.githubusercontent.com/95975931/192192092-89e92e9e-144e-4368-ac27-1d1b153fdba2.png)
+
+
 ## Background
 
 It is a beautiful spring day, and it is two weeks since you have been hired as a new data engineer at Pewlett Hackard. Your first major task is a research project on employees of the corporation from the 1980s and 1990s. All that remain of the database of employees from that period are six CSV files.
