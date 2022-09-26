@@ -3,6 +3,10 @@ Eddy's Folder for SQL Homework
 
 ![image](https://user-images.githubusercontent.com/95975931/192192092-89e92e9e-144e-4368-ac27-1d1b153fdba2.png)
 
+![image](https://user-images.githubusercontent.com/95975931/192192289-057bed47-bbc1-47e4-8788-2ea7a10331c4.png)
+![image](https://user-images.githubusercontent.com/95975931/192192309-1e2a1612-83b4-41a4-9c56-8f458ae9e6f6.png)
+
+
 
 ## Background
 
